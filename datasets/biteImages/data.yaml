@@ -1,0 +1,14 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+path: ../../datasets
+
+nc: 20
+names: ['Bed-bug', 'Bee-bite', 'Beetle', 'Chigger-bites', 'Conenose Bite', 'Fire-Ant', 'Fleas', 'Gnat-bites', 'Horse-Fly', 'Lice', 'Midges', 'Mites', 'Mosquito', 'Scabies', 'Scorpion', 'Spider', 'Tick', 'Wasp', 'Yellow-Jacket', 'bedbug']
+
+roboflow:
+  workspace: bug-workspace
+  project: insect-bites-3ozz8
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/bug-workspace/insect-bites-3ozz8/1
