@@ -1,7 +1,7 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
-path: ../../datasets
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+path: .
 
 nc: 20
 names: ['Bed-bug', 'Bee-bite', 'Beetle', 'Chigger-bites', 'Conenose Bite', 'Fire-Ant', 'Fleas', 'Gnat-bites', 'Horse-Fly', 'Lice', 'Midges', 'Mites', 'Mosquito', 'Scabies', 'Scorpion', 'Spider', 'Tick', 'Wasp', 'Yellow-Jacket', 'bedbug']
