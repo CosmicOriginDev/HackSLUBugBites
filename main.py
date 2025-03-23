@@ -7,27 +7,14 @@ from ultralytics import YOLO
 import io
 import Output
 
-model = YOLO("runs\detect\\train\weights\\best.pt")
+model = YOLO("runs\\detect\\train\\weights\\best.pt")
 currentBug = None
 
 
 def getImageInfo(imageParam):
-    image = Image.open(imageParam['layers'][0]).convert("RGB")
-    #Change bug type according to yolo...?:
-
-    jpeg_buffer = io.BytesIO()
-    image.save(jpeg_buffer, format="JPEG")
-    jpeg_buffer.seek(0)  # Rewind to start of buffer
-
-    # Reload image from buffer (still a PIL Image, now "JPEG-like")
-    image = Image.open(jpeg_buffer)
-    image.show()
-
-
-    result = model.predict(source=image, save=True)
-
-    #Print text if bug type:
-    print(result[0].boxes.cls)
+   
+    # Ensure the image is correctly formatted before YOLO
+    result = model.predict(source=imageParam, save=True)
     
     setOfBugs = set()
     if result[0].boxes and result[0].boxes.cls is not None:
@@ -45,7 +32,7 @@ def getImageInfo(imageParam):
 
 
 
-imageCropper = gr.ImageEditor(transforms="crop", interactive=True, eraser=False, brush=False, layers=False, type='filepath')
+imageCropper = gr.Image(type="pil",format="jpg")
 textBox = gr.Textbox(label = "Bug Info:", interactive=False)
 
 inputWindow = gr.Interface(fn=getImageInfo, inputs= [imageCropper], outputs=[textBox], live=True).launch(debug=True)#, share=True)
