@@ -12,7 +12,7 @@ def main():
     model.val()
 
     # Export to ONNX format
-    model.export(format="TensorRT")
+    model.export(format="ONNX")
     print("Training and export completed successfully.")
 
 
