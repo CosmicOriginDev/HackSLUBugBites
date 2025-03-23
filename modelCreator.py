@@ -6,7 +6,7 @@ def main():
     model = YOLO("yolov8n.pt")
 
     # Train the model
-    model.train(data="datasets/biteImages/data.yaml", epochs=1, batch=8, imgsz=640)
+    model.train(data="datasets/biteImages/data.yaml", epochs=100, batch=-1, imgsz=640)
 
     # Validate the model
     model.val()
