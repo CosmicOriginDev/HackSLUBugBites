@@ -6,13 +6,13 @@ def main():
     model = YOLO("yolov8n.pt")
 
     # Train the model
-    model.train(data="datasets/biteImages/data.yaml", epochs=5, batch=8, imgsz=640)
+    model.train(data="datasets/biteImages/data.yaml", epochs=1, batch=8, imgsz=640)
 
     # Validate the model
     model.val()
 
     # Export to ONNX format
-    model.export(format="onnx")
+    model.export(format="TensorRT")
     print("Training and export completed successfully.")
 
 
