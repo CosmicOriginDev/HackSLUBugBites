@@ -1,0 +1,22 @@
+bite_info = {
+    "Bed-bug": "Red, itchy welts in a line or cluster, often on arms or legs after sleep. Wash with soap and water, apply corticosteroid cream; treat home to eliminate infestation.",
+    "Bee-bite": "Sharp pain followed by redness, swelling, and itching at the sting site. Remove stinger if present, clean area, apply ice and antihistamines; seek emergency care if allergic.",
+    "Beetle": "Varies by species; blister beetles may cause painful blisters or irritation on contact. Wash skin with soap and water, avoid scratching; see doctor if blistering or reaction worsens.",
+    "Chigger-bites": "Intensely itchy red bumps, often around tight clothing areas like waist or ankles. Clean area, apply anti-itch creams or antihistamines; avoid scratching to prevent infection.",
+    "Conenose Bite": "Painless bite at first, later becomes red and swollen; may transmit Chagas disease. Clean bite site, monitor for fever or swelling; consult doctor for Chagas testing if concerned.",
+    "Fire-Ant": "Burning pain, followed by itchy red bumps and white pustules. Clean with soap and water, use cold compress and antihistamines; seek help if allergic reaction occurs.",
+    "Fleas": "Clusters of small, red itchy bumps, often on legs or ankles. Wash bites, apply anti-itch cream, vacuum thoroughly; treat pets and home environment.",
+    "Gnat-bites": "Small red bumps with mild itching or swelling; sometimes painful. Clean area, use anti-itch cream or cold compress; avoid further exposure.",
+    "Horse-Fly": "Large, swollen, painful red bump; may bleed and itch. Clean wound, apply cold compress, use antihistamines; monitor for infection or allergic signs.",
+    "Lice": "Intense itching on scalp, neck, or body with visible nits or lice. Use medicated shampoo, comb out nits, wash bedding and clothing; repeat treatment in 7–10 days.",
+    "Midges": "Small itchy red bumps, may appear in clusters; often mistaken for mosquito bites. Apply cold compress or anti-itch cream; avoid scratching and use repellents outdoors.",
+    "Mites": "Itchy red bumps, sometimes forming a rash; can resemble chigger or scabies bites. Wash area, use topical anti-itch treatments; treat environment and seek diagnosis if persistent.",
+    "Mosquito": "Itchy, raised red bumps; may appear immediately or hours later. Apply anti-itch creams or cold compress; use repellents and avoid scratching.",
+    "Scabies": "Intense itching with pimple-like rash, especially at night and between fingers. Prescription scabicide cream required; wash all clothing and bedding in hot water.",
+    "Scorpion": "Immediate pain, swelling, and tingling at sting site; severe cases cause numbness or breathing issues. Clean wound, apply ice, seek urgent care if symptoms worsen or systemic effects occur.",
+    "Spider": "Red, painful area with possible blister or necrotic center depending on species. Clean bite, apply cold compress, monitor for systemic effects; seek care for severe bites.",
+    "Tick": "Small red bump, possibly with bullseye rash; may transmit Lyme or other diseases. Remove tick with tweezers, disinfect area, monitor for fever or rash; seek testing if needed.",
+    "Wasp": "Sharp pain, swelling, and redness at sting site; may cause large local reactions. Apply ice, take antihistamines, monitor for allergy; seek emergency help if anaphylaxis occurs.",
+    "Yellow-Jacket": "Painful sting with swelling, redness, and itching; may sting multiple times. Clean area, apply cold compress, take antihistamines; seek help for allergic symptoms.",
+    "bedbug": "Itchy red bumps in lines or clusters, often on arms or neck after sleeping. Clean bites, apply topical steroids; address infestation through professional pest control."
+}
