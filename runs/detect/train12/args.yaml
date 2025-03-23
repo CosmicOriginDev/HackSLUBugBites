@@ -1,11 +1,11 @@
 task: detect
 mode: train
 model: yolov8n.pt
-data: .data/data.yaml
+data: datasets/biteImages/data.yaml
 epochs: 50
 time: null
 patience: 100
-batch: 8
+batch: 64
 imgsz: 640
 save: true
 save_period: -1

@@ -1,0 +1,39 @@
+description: Ultralytics best model trained on datasets/biteImages/data.yaml
+author: Ultralytics
+date: '2025-03-22T22:36:27.735949'
+version: 8.3.94
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 1280
+- 1280
+names:
+  0: Bed-bug
+  1: Bee-bite
+  2: Beetle
+  3: Chigger-bites
+  4: Conenose Bite
+  5: Fire-Ant
+  6: Fleas
+  7: Gnat-bites
+  8: Horse-Fly
+  9: Lice
+  10: Midges
+  11: Mites
+  12: Mosquito
+  13: Scabies
+  14: Scorpion
+  15: Spider
+  16: Tick
+  17: Wasp
+  18: Yellow-Jacket
+  19: bedbug
+args:
+  batch: 1
+  half: false
+  int8: false
+  dynamic: false
+  nms: false
